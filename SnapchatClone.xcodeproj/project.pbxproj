@@ -14,6 +14,7 @@
 		5D05B3AC28F74A8C0045AAE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D05B3AA28F74A8C0045AAE8 /* Main.storyboard */; };
 		5D05B3AE28F74A8C0045AAE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D05B3AD28F74A8C0045AAE8 /* Assets.xcassets */; };
 		5D05B3B128F74A8C0045AAE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D05B3AF28F74A8C0045AAE8 /* LaunchScreen.storyboard */; };
+		5D386D0028FD99B000D2EDA8 /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D386CFF28FD99B000D2EDA8 /* UserSingleton.swift */; };
 		5D43E91828F752150026AF90 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43E91728F752150026AF90 /* FeedVC.swift */; };
 		5D43E91A28F752220026AF90 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43E91928F752220026AF90 /* UploadVC.swift */; };
 		5D43E91C28F752330026AF90 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43E91B28F752330026AF90 /* SettingsVC.swift */; };
@@ -30,6 +31,7 @@
 		5D05B3AD28F74A8C0045AAE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D05B3B028F74A8C0045AAE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D05B3B228F74A8C0045AAE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D386CFF28FD99B000D2EDA8 /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
 		5D43E91728F752150026AF90 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		5D43E91928F752220026AF90 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
 		5D43E91B28F752330026AF90 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		5D05B3A328F74A8C0045AAE8 /* SnapchatClone */ = {
 			isa = PBXGroup;
 			children = (
+				5D386CFE28FD999A00D2EDA8 /* Model */,
 				5D43E91E28F752820026AF90 /* Delegates */,
 				5D43E91D28F752450026AF90 /* ViewControllers */,
 				5D05B3AA28F74A8C0045AAE8 /* Main.storyboard */,
@@ -90,6 +93,14 @@
 				5DAD948528F74CE600CD4361 /* GoogleService-Info.plist */,
 			);
 			path = SnapchatClone;
+			sourceTree = "<group>";
+		};
+		5D386CFE28FD999A00D2EDA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D386CFF28FD99B000D2EDA8 /* UserSingleton.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		5D43E91D28F752450026AF90 /* ViewControllers */ = {
@@ -238,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D386D0028FD99B000D2EDA8 /* UserSingleton.swift in Sources */,
 				5D43E91828F752150026AF90 /* FeedVC.swift in Sources */,
 				5D05B3A928F74A8C0045AAE8 /* SignInVC.swift in Sources */,
 				5D05B3A528F74A8C0045AAE8 /* AppDelegate.swift in Sources */,
