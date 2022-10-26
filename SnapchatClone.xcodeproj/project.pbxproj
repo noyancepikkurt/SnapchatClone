@@ -18,8 +18,10 @@
 		5D43E91828F752150026AF90 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43E91728F752150026AF90 /* FeedVC.swift */; };
 		5D43E91A28F752220026AF90 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43E91928F752220026AF90 /* UploadVC.swift */; };
 		5D43E91C28F752330026AF90 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D43E91B28F752330026AF90 /* SettingsVC.swift */; };
+		5DAB143B290989F200FAAFDB /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAB143A290989F200FAAFDB /* Snap.swift */; };
 		5DAD948628F74CE600CD4361 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5DAD948528F74CE600CD4361 /* GoogleService-Info.plist */; };
 		5DD8EDA928F7549C00149250 /* SnapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8EDA828F7549C00149250 /* SnapVC.swift */; };
+		5DE1C8A02909876B00F3DC77 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1C89F2909876B00F3DC77 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +37,10 @@
 		5D43E91728F752150026AF90 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		5D43E91928F752220026AF90 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
 		5D43E91B28F752330026AF90 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		5DAB143A290989F200FAAFDB /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
 		5DAD948528F74CE600CD4361 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5DD8EDA828F7549C00149250 /* SnapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapVC.swift; sourceTree = "<group>"; };
+		5DE1C89F2909876B00F3DC77 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		8E9C6D023DA3D3D74C598F30 /* Pods-SnapchatClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatClone.debug.xcconfig"; path = "Target Support Files/Pods-SnapchatClone/Pods-SnapchatClone.debug.xcconfig"; sourceTree = "<group>"; };
 		D224B707D570418A213FE494 /* Pods-SnapchatClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatClone.release.xcconfig"; path = "Target Support Files/Pods-SnapchatClone/Pods-SnapchatClone.release.xcconfig"; sourceTree = "<group>"; };
 		EDCA9B57AC46D6592D928BAC /* Pods_SnapchatClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +102,7 @@
 		5D386CFE28FD999A00D2EDA8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5DAB143A290989F200FAAFDB /* Snap.swift */,
 				5D386CFF28FD99B000D2EDA8 /* UserSingleton.swift */,
 			);
 			path = Model;
@@ -106,6 +111,7 @@
 		5D43E91D28F752450026AF90 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5DE1C89F2909876B00F3DC77 /* FeedCell.swift */,
 				5D05B3A828F74A8C0045AAE8 /* SignInVC.swift */,
 				5D43E91728F752150026AF90 /* FeedVC.swift */,
 				5D43E91928F752220026AF90 /* UploadVC.swift */,
@@ -250,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D386D0028FD99B000D2EDA8 /* UserSingleton.swift in Sources */,
+				5DAB143B290989F200FAAFDB /* Snap.swift in Sources */,
 				5D43E91828F752150026AF90 /* FeedVC.swift in Sources */,
 				5D05B3A928F74A8C0045AAE8 /* SignInVC.swift in Sources */,
 				5D05B3A528F74A8C0045AAE8 /* AppDelegate.swift in Sources */,
@@ -257,6 +264,7 @@
 				5DD8EDA928F7549C00149250 /* SnapVC.swift in Sources */,
 				5D05B3A728F74A8C0045AAE8 /* SceneDelegate.swift in Sources */,
 				5D43E91C28F752330026AF90 /* SettingsVC.swift in Sources */,
+				5DE1C8A02909876B00F3DC77 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
